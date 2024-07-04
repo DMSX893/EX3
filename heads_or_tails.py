@@ -1,5 +1,8 @@
 import random
 
+name = input("Who are you? ")
+print(f"Hello, {name}!")
+
 results = []
 heads = 0
 tails = 0
@@ -16,7 +19,3 @@ for round in range(1, 4):
         tails += 1
 
 print(f"Heads: {heads}, Tails: {tails}")
-
-
-
-
