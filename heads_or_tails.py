@@ -19,3 +19,8 @@ for round in range(1, 4):
         tails += 1
 
 print(f"Heads: {heads}, Tails: {tails}")
+
+if heads > tails:
+    print(f"{name} won!")
+else:
+    print(f"{name} lost!")
